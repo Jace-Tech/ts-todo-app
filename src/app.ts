@@ -1,5 +1,5 @@
 import * as readline from 'readline';
-import { TodoList } from './TodoList';
+import { TodoList } from './todo-list';
 
 // Initialize Readline interface for console I/O
 const rl = readline.createInterface({

@@ -16,12 +16,16 @@ A simple, interactive console-based Todo List application built with TypeScript.
 
 ## How to Run
 
-I have already compiled the TypeScript files to JavaScript for you to bypass any local `npm` cache permission errors.
+You can use the built-in npm scripts to build and run the application.
 
-You can simply run the compiled application by typing:
-
+1. **To build the application** (compiles TypeScript to JavaScript in the `dist` folder):
 ```bash
-node dist/app.js
+npm run build
+```
+
+2. **To run the application**:
+```bash
+npm start
 ```
 
 ## Usage Instructions
